@@ -1,2 +1,2 @@
 # Producto-datos-lab
-Productos de Datos - Clasificador-propinas
+Productos de Datos - UDD Magister Data Science 
