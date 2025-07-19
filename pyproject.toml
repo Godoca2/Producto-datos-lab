@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "taxi-tips-classifier"
+version = "0.1.0"
+authors = [
+    { name="César Godoy Delaigue", email="cesar.delaigue@gmail.com" }
+]
+description = "NYC Taxi Tips Classifier"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "pyarrow",
+    "joblib"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cesar-godoy-delaigue/taxi-tips-classifier"
+"Bug Tracker" = "https://github.com/cesar-godoy-delaigue/taxi-tips-classifier/issues"
