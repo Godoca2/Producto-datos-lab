@@ -21,3 +21,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/cesar-godoy-delaigue/taxi-tips-classifier"
 "Bug Tracker" = "https://github.com/cesar-godoy-delaigue/taxi-tips-classifier/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/taxi_tips_classifier"]
