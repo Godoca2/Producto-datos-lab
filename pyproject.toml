@@ -12,10 +12,23 @@ description = "NYC Taxi Tips Classifier"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "pandas",
-    "scikit-learn",
-    "pyarrow",
-    "joblib"
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "pyarrow>=10.0.0",
+    "joblib>=1.3.0",
+    "numpy>=1.20.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+    "ipykernel>=6.29.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0", 
+    "flake8>=5.0.0",
+    "mypy>=1.0.0",
+    "jupyter>=1.0.0",
 ]
 
 [project.urls]
